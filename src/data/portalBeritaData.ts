@@ -1,0 +1,282 @@
+import { BeritaPortalItem } from '../types';
+
+export const koleksiBeritaPortal: BeritaPortalItem[] = [
+  {
+    id: 'news-01',
+    judul: 'Sidang Komite Khusus PBB C-24 Kembali Menyoroti Hak Penentuan Nasib Sendiri Kawasan Pasifik',
+    subjudul: 'Delegasi Negara Pasifik Mengingatkan Komitmen Piagam PBB Bab XI Mengenai Dekolonisasi',
+    kategori: 'pasifik',
+    kategoriLabel: 'Pasifik & PBB',
+    tanggal: '11 November 2026',
+    waktuRilis: '08:45 WIB',
+    ringkasan: 'Perwakilan negara-negara kepulauan Pasifik mendesak PBB untuk meninjau kembali wilayah-wilayah yang belum menikmati dekolonisasi sejati sesuai Deklarasi 1514 (XV).',
+    isiLengkap: `NEW YORK — Dalam sidang komite dekolonisasi Perserikatan Bangsa-Bangsa (C-24) di Markas Besar PBB New York, utusan diplomatik kawasan Pasifik Selatan kembali menegaskan pentingnya penghormatan hak asasi manusia dan keadilan historis bagi rakyat di wilayah Pasifik Barat Daya.
+
+Perwakilan menyoroti preseden historis Bab XI Piagam PBB mengenai Wilayah Tanpa Pemerintahan Sendiri (Non-Self-Governing Territories) dan mengimbau Komisioner Tinggi HAM PBB untuk terus memantau situasi di lapangan secara berkala.
+
+"Prinsip universal hak menentukan nasib sendiri bukanlah komoditas yang kedaluwarsa, melainkan mandat moral seluruh bangsa beradab," tegas duta besar Pasifik dalam sidang pleno.`,
+    penulis: 'Eliazar Mote',
+    lokasiLiputan: 'New York / Markas Besar PBB',
+    gambarUrl: '/src/assets/images/diplomasi_pbb_papua_1794381198400.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['PBB', 'PASIFIK', 'DIPLOMASI', 'DEKOLONISASI'],
+    isBreakingNews: true,
+    isHeadline: true,
+    isSlider: true,
+    dibacaCount: 14250,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-02',
+    judul: 'Peringatan Hari Internasional Masyarakat Adat: Seruan Moratorium Konsesi Hutan Adat Papua',
+    subjudul: 'Dewan Adat 7 Wilayah Menuntut Pengakuan Yuridis Penuh Atas Hutan Ulayat',
+    kategori: 'papua',
+    kategoriLabel: 'Tanah Papua',
+    tanggal: '10 November 2026',
+    waktuRilis: '14:20 WIB',
+    ringkasan: 'Aliansi Dewan Adat di tujuh wilayah adat Papua menyerukan moratorium penerbitan izin konsesi kelapa sawit dan tambang yang mengancam tanah ulayat.',
+    isiLengkap: `JAYAPURA — Dewan Adat Papua bersama perwakilan masyarakat adat dari Mamta, Saireri, Domberai, Bomberai, Ha Anim, La Pago, dan Mee Pago menggelar musyawarah adat memperingati hak masyarakat adat atas tanah leluhur.
+
+Para tetua adat menegaskan bahwa tanah dan hutan Papua adalah ruang hidup sakral yang menopang kebudayaan dan martabat generasi masa depan bangsa Papua. Ekspansi perkebunan monokultur skala masif di wilayah selatan dan lembah utara dikhawatirkan merusak keanekaragaman hayati dan tatanan sosial kampung-kampung adat.`,
+    penulis: 'Marthen Bonay',
+    lokasiLiputan: 'Jayapura, Tanah Papua',
+    gambarUrl: '/src/assets/images/galeri_budaya_papua_1794381198080.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['MASYARAKAT ADAT', 'HUTAN ADAT', 'LINGKUNGAN', 'MAMTA'],
+    isBreakingNews: false,
+    isHeadline: true,
+    isSlider: true,
+    dibacaCount: 11890,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-03',
+    judul: 'KTT Pemimpin Melanesian Spearhead Group (MSG) Mengukuhkan Komunike Bersama di Port Vila',
+    subjudul: 'Fokus pada Perubahan Iklim Kawasan, Kedaulatan Sumber Daya, dan Dialog Kemanusiaan',
+    kategori: 'melanesia',
+    kategoriLabel: 'Melanesia',
+    tanggal: '9 November 2026',
+    waktuRilis: '11:15 WIB',
+    ringkasan: 'Para pemimpin negara rumpun Melanesia di Pasifik menegaskan kembali komitmen terhadap penyelesaian damai dan penegakan martabat kemanusiaan di West Papua.',
+    isiLengkap: `PORT VILA — Pertemuan para kepala negara Melanesian Spearhead Group (MSG) yang berlangsung di Port Vila menghasilkan komunike strategis mengenai perdamaian, kerja sama iklim, dan penegakan hak asasi manusia di kawasan kepulauan Melanesia.
+
+Para pemimpin menyerukan pengiriman misi pencari fakta independen dari Komisioner Tinggi Hak Asasi Manusia PBB (OHCHR) ke Tanah Papua guna memverifikasi situasi kemanusiaan secara obyektif dan menyeluruh.`,
+    penulis: 'Sarah Vanu',
+    lokasiLiputan: 'Port Vila, Vanuatu',
+    gambarUrl: '/src/assets/images/diplomasi_pbb_papua_1794381198400.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['MSG', 'MELANESIA', 'SOLIDARITAS', 'VANUATU'],
+    isBreakingNews: true,
+    isHeadline: true,
+    isSlider: true,
+    dibacaCount: 9780,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-04',
+    judul: 'Investigasi Situasi Pengungsi Internal: Ribuan Warga Membutuhkan Bantuan Medis Mendesak',
+    subjudul: 'Koalisi Kemanusiaan Gereja Desak Pembukaan Koridor Bantuan Netral Tanpa Hambatan',
+    kategori: 'kemanusiaan',
+    kategoriLabel: 'Kemanusiaan',
+    tanggal: '8 November 2026',
+    waktuRilis: '16:00 WIB',
+    ringkasan: 'Laporan koalisi kemanusiaan gereja mencatat kondisi kritis anak-anak dan lansia di pos-pos pengungsian wilayah pegunungan tengah.',
+    isiLengkap: `WAMENA — Koalisi gereja-gereja di tanah Papua merilis laporan investigasi mengenai situasi lebih dari 60.000 warga sipil adat yang mengungsi dari kabupaten-kabupaten terdampak konflik bersenjata di dataran tinggi.
+
+Gereja mendesak dibukanya koridor kemanusiaan tanpa halangan bagi penyaluran obat-obatan, selimut, dan tenaga medis independen ke kampung-kampung pengungsian di La Pago dan Mee Pago.`,
+    penulis: 'Tim Investigasi Kemanusiaan',
+    lokasiLiputan: 'Wamena, Pegunungan Papua',
+    gambarUrl: '/src/assets/images/galeri_tokoh_papua_1794381197775.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['PENGUNGSI', 'GEREJA', 'KEMANUSIAAN', 'LA PAGO'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 8430,
+    tipeKonten: 'investigasi'
+  },
+  {
+    id: 'news-05',
+    judul: 'Forum Parlemen Pasifik Desak Australia dan Selandia Baru Tingkatkan Tekanan Diplomatik',
+    subjudul: 'Dua Dekade Dinamika Pasifik Forum Memasuki Babak Baru Kemitraan Geopolitik',
+    kategori: 'australia_nz',
+    kategoriLabel: 'Australia & NZ',
+    tanggal: '7 November 2026',
+    waktuRilis: '09:30 WIB',
+    ringkasan: 'Anggota parlemen lintas partai di Canberra dan Wellington menggelar dengar pendapat publik mengenai kewajiban hukum internasional di kawasan Barat Daya Pasifik.',
+    isiLengkap: `CANBERRA — Komite Hubungan Luar Negeri Parlemen Australia menggelar audiensi publik mendengarkan kesaksian para akademisi hukum internasional dan diaspora Pasifik mengenai dinamika stabilitas regional.
+
+Sejumlah senator menyerukan peninjauan kembali pakta keamanan maritim dan peningkatan bantuan kemanusiaan independen ke wilayah pulau-pulau terdampak.`,
+    penulis: 'David Henderson',
+    lokasiLiputan: 'Canberra, Australia',
+    gambarUrl: '/src/assets/images/hero_nieuw_guinea_raad_1794381196846.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['AUSTRALIA', 'SELANDIA BARU', 'PARLEMEN', 'PASIFIK'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 7120,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-06',
+    judul: 'Kajian Akademis Hukum Internasional: Menakar Keabsahan Prosedur Pepera 1969',
+    subjudul: 'Riset Komparatif Arsip PBB A/7723 Mengungkap Kejanggalan Metode Musyawarah Tertutup',
+    kategori: 'hukum_ham',
+    kategoriLabel: 'Hukum & HAM',
+    tanggal: '6 November 2026',
+    waktuRilis: '13:00 WIB',
+    ringkasan: 'Sebuah monograf hukum internasional baru menganalisis pertentangan antara Pasal 18 New York Agreement dan pelaksanaan sistem 1.025 delegasi tertutup.',
+    isiLengkap: `DEN HAAG — Lembaga kajian hukum internasional merilis hasil riset deklasifikasi arsip rahasia diplomatik Belanda, Amerika Serikat, dan PBB periode 1962–1969.
+
+Penelitian menegaskan bahwa prinsip "one man, one vote" sebagaimana diamanatkan Piagam PBB Pasal 73 digantikan oleh musyawarah bertingkat di bawah tekanan militer, meninggalkan cacat hukum permanen dalam sejarah dekolonisasi modern.`,
+    penulis: 'Prof. Willem van Houten',
+    lokasiLiputan: 'Den Haag, Belanda',
+    gambarUrl: '/src/assets/images/dokumen_piagam_pbb_1794381197479.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['HUKUM INTERNASIONAL', 'PEPERA 1969', 'NEW YORK AGREEMENT', 'ARSIP'],
+    isBreakingNews: false,
+    isHeadline: true,
+    isSlider: false,
+    dibacaCount: 13500,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-07',
+    judul: 'Revitalisasi Bahasa Asli Papua: Inisiatif Digitalisasi Ratusan Bahasa Austronesia dan Non-Austronesia',
+    subjudul: 'Akademisi Universitas Cenderawasih dan Tetua Adat Dokumentasikan Kosakata Punah',
+    kategori: 'pendidikan',
+    kategoriLabel: 'Pendidikan',
+    tanggal: '5 November 2026',
+    waktuRilis: '10:45 WIB',
+    ringkasan: 'Program preservasi linguistik merekam tutur lisan 270 bahasa daerah Papua sebelum tergerus arus modernisasi.',
+    isiLengkap: `MANOKWARI — Pusat Studi Linguistik Kawasan Kepala Burung meluncurkan aplikasi kamus interaktif multibahasa daerah Papua.
+
+Proyek ini mendokumentasikan fonetik, tata bahasa, serta tradisi lisan (folklore) dari suku-suku pedalaman di Saireri dan Domberai guna diajarkan kepada murid-murid sekolah dasar adat.`,
+    penulis: 'Maria Rumsayor',
+    lokasiLiputan: 'Manokwari, Papua Barat',
+    gambarUrl: '/src/assets/images/galeri_budaya_papua_1794381198080.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['BAHASA DAERAH', 'PENDIDIKAN', 'BUDAYA', 'LINGUISTIK'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 6840,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-08',
+    judul: 'Analisis Ekonomi Tambang dan Royalti SDA: Kesenjangan Kesejahteraan di Lingkar Tambang Terbesar',
+    subjudul: 'Laporan Keuangan Korporasi Menunjukkan Paradoks Kemiskinan Ekstrem Warga Pemilik Ulayat',
+    kategori: 'ekonomi',
+    kategoriLabel: 'Ekonomi & SDA',
+    tanggal: '4 November 2026',
+    waktuRilis: '15:30 WIB',
+    ringkasan: 'Meski menyumbang triliunan rupiah dari ekspor konsentrat tembaga dan emas, indeks pembangunan manusia kampung di Timika tetap rendah.',
+    isiLengkap: `TIMIKA — Lembaga pemantau transparansi anggaran merilis telaah kritis mengenai alokasi dana bagi hasil pertambangan dan dana otonomi khusus.
+
+Warga suku Amungme dan Kamoro mendesak audit independen atas dampak lingkungan tailing tambang dan pemenuhan hak dividen saham adat yang dijanjikan.`,
+    penulis: 'Yulianus Tabuni',
+    lokasiLiputan: 'Timika, Papua Tengah',
+    gambarUrl: '/src/assets/images/hero_nieuw_guinea_raad_1794381196846.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['EKONOMI', 'TAMBANG', 'ULAYAT', 'AMUNGME'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 9230,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-09',
+    judul: 'Festival Danau Sentani: Perayaan Ketahanan Budaya dan Arsitektur Rumah Tradisional Kariwari',
+    subjudul: 'Ratusan Peniup Suling Kerang dan Penari Isolo Menghidupkan Tradisi Leluhur',
+    kategori: 'budaya',
+    kategoriLabel: 'Budaya',
+    tanggal: '3 November 2026',
+    waktuRilis: '17:15 WIB',
+    ringkasan: 'Pagelaran seni tari di atas perahu kayu menghadirkan kembali memori kolektif persatuan suku-suku di wilayah adat Mamta.',
+    isiLengkap: `SENTANI — Pesta budaya tahunan Danau Sentani kembali digelar dengan mengusung tema kedaulatan budaya maritim danau.
+
+Para ondofolo (kepala adat besar) menegaskan bahwa adat adalah tiang penyangga moral yang tidak boleh runtuh di tengah guncangan politik kontemporer.`,
+    penulis: 'Oktovianus Wally',
+    lokasiLiputan: 'Sentani, Jayapura',
+    gambarUrl: '/src/assets/images/galeri_budaya_papua_1794381198080.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['FESTIVAL', 'BUDAYA', 'SENTANI', 'ONDOFOLO'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 5410,
+    tipeKonten: 'foto'
+  },
+  {
+    id: 'news-10',
+    judul: 'Kolom Opini: Rekonstruksi Sejarah Nasionalisme Papua Menuju Perdamaian Berkeadilan',
+    subjudul: 'Mengapa Mengabaikan Peristiwa 1 Desember 1961 Menghambat Penyelesaian Akar Masalah',
+    kategori: 'opini',
+    kategoriLabel: 'Opini & Kolom',
+    tanggal: '2 November 2026',
+    waktuRilis: '07:30 WIB',
+    ringkasan: 'Menelisik akar konflik Papua melalui kacamata sejarah otentik manifesto politik 1961 dan perlunya kejujuran dialogis.',
+    isiLengkap: `OPINI — Selama enam dekade, perdebatan status Papua sering kali disederhanakan menjadi isu separatisme versus kedaulatan negara.
+
+Namun, mengabaikan fakta sejarah pembentukan Nieuw Guinea Raad pada 5 April 1961 dan penetapan simbol-simbol identitas kebangsaan pada 19 Oktober 1961 hanya akan melanggengkan luka sejarah. Dialog bermartabat hanya mungkin terwujud jika ada rekonsiliasi atas fakta sejarah yang terjadi.`,
+    penulis: 'Dr. Benny Giay',
+    lokasiLiputan: 'Jayapura, Tanah Papua',
+    gambarUrl: '/src/assets/images/galeri_tokoh_papua_1794381197775.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['OPINI', 'HISTORIOGRAFI', 'REKONSILIASI', 'NGR 1961'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 15420,
+    tipeKonten: 'artikel'
+  },
+  {
+    id: 'news-11',
+    judul: 'Dokumenter Eksklusif: Jejak 28 Anggota Parlemen Nieuw Guinea Raad di Negeri Belanda',
+    subjudul: 'Penelusuran Arsip Foto dan Rekaman Suara Sidang 1961 yang Tersimpan di Nationaal Archief',
+    kategori: 'multimedia',
+    kategoriLabel: 'Multimedia & Video',
+    tanggal: '1 November 2026',
+    waktuRilis: '19:00 WIB',
+    ringkasan: 'Serial dokumenter visual menelusuri pidato-pidato Markus Kaisiepo dan Nicolaas Jouwe dalam memperjuangkan hak dekolonisasi di forum internasional.',
+    isiLengkap: `AMSTERDAM — Tim liputan multimedia Nieuw Guinea Raad menayangkan rekaman film 16mm berwarna yang baru direstorasi mengenai hari pelantikan parlemen pertama Papua di Hollandia pada 5 April 1961.
+
+Dokumenter ini memaparkan dinamika politik saat para wakil rakyat pribumi merumuskan peta jalan kemerdekaan penuh dalam jangka waktu sepuluh tahun.`,
+    penulis: 'Tim Multimedia NGR',
+    lokasiLiputan: 'Amsterdam & Jayapura',
+    gambarUrl: '/src/assets/images/hero_nieuw_guinea_raad_1794381196846.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['DOKUMENTER', 'MULTIMEDIA', 'ARSIP 1961', 'HOLLANDIA'],
+    isBreakingNews: false,
+    isHeadline: true,
+    isSlider: true,
+    dibacaCount: 16890,
+    tipeKonten: 'video'
+  },
+  {
+    id: 'news-12',
+    judul: 'Krisis Kesehatan di Kampung Terpencil: Ketiadaan Tenaga Medis Ancam Kematian Ibu dan Anak',
+    subjudul: 'Puskesmas Pembantu di Korowai dan Asmat Kosong Tanpa Dokter Selama Berbulan-bulan',
+    kategori: 'kesehatan',
+    kategoriLabel: 'Kesehatan',
+    tanggal: '30 Oktober 2026',
+    waktuRilis: '12:20 WIB',
+    ringkasan: 'Laporan lapangan mengungkap minimnya fasilitas rantai dingin vaksin dan obat-obatan esensial di pedalaman hutan rawa.',
+    isiLengkap: `MERAUKE — Yayasan pelayanan medis keuskupan mengumumkan peringatan darurat mengenai tingginya kasus malaria resisten dan gizi kronis pada balita di pedalaman selatan Papua.
+
+Dinas kesehatan didesak menerapkan sistem insentif memadai serta transportasi perahu medis sungai agar tenaga kesehatan dapat melayani secara berkelanjutan.`,
+    penulis: 'Theresia Maturbongs',
+    lokasiLiputan: 'Merauke, Papua Selatan',
+    gambarUrl: '/src/assets/images/galeri_budaya_papua_1794381198080.jpg',
+    sumberAsliUrl: 'https://nieuw-guinea-raad.blogspot.com/',
+    labelTag: ['KESEHATAN', 'DARURAT MEDIS', 'ASMAT', 'HA ANIM'],
+    isBreakingNews: false,
+    isHeadline: false,
+    isSlider: false,
+    dibacaCount: 4920,
+    tipeKonten: 'investigasi'
+  }
+];

@@ -1,0 +1,6 @@
+{
+  "name": "Nieuw Guinea Raad",
+  "description": "Pusat Dokumentasi Sejarah, Arsip, Penelitian, dan Perjalanan Politik Papua. Merawat Ingatan Sejarah, Mendokumentasikan Identitas, dan Menelusuri Perjalanan Bangsa Papua.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
